@@ -4,7 +4,7 @@ navbar_entries:
 
 project_entries:
   - title: VulnNet - Roasted
-    url: overview-post
+    url: vulnnet-roasted
     desc: Writeup
 
   - title: Project 2
