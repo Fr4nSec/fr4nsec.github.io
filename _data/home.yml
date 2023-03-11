@@ -9,9 +9,9 @@ navbar_entries:
     url: https://www.abhinav.co
 
 project_entries:
-  - title: Project 1
+  - title: VulnNet - Roasted
     url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+    desc: Writeup
 
   - title: Project 2
     url: overview-post
