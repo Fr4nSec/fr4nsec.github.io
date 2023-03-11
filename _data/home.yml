@@ -1,12 +1,6 @@
 navbar_entries:
-  - title: about
-    url: about
-
-  - title: blog
-    url: blog
-
   - title: THM Page
-    url: https://www.abhinav.co
+    url: https://tryhackme.com/
 
 project_entries:
   - title: VulnNet - Roasted
