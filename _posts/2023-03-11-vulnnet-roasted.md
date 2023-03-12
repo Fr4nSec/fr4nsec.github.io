@@ -128,6 +128,19 @@ We found a script and when we check what does it do, we find some credentials fo
 
 ![scriptcreds](/images/scripcreds.jpg)
 
+Let's find out more:
+
+```
+evil-winrm -i 10.10.31.71 -u 'a-whitehat' -p 'bNdKVkjv3RR9ht'
+```
+
+It works! and if we run the below, we see the user is DOMAIN ADMIN!
+
+![domainadmin](/images/domainadmin.jpg)
+
+
+
+
 
 
 ## Privilege escalation
