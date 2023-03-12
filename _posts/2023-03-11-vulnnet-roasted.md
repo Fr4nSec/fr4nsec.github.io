@@ -25,10 +25,22 @@ Once we have a list of open ports, let's scan those ports more in depth.
 ```
 nmap -p 53,135,139,389,445,464,636,3268,5985,9389 -sCV 10.10.216.196 > PortScan
 cat PortScan
-```
+
 
 ![scan2](/images/scan2.jpg)
 
+We can see some information like domain name and the host.
+
+- Domain: vulnnet-rst.local0
+- Host: WIN-2BO8M1OE1M1
+
+Port 445 (SMB) is open. Let's see what we can retrieve from there.
+
+```
+smbmap -H 10.10.216.196 -u anonymous
+```
+
+![smb1](/images/smb1.jpg)
 
 ## Exploitation
 
