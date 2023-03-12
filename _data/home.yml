@@ -15,7 +15,7 @@ project_entries:
     highlight: Medium
 
   - title: Brute it
-    url: overview-post
+    url: vulnnet-roasted
     desc: Linux, HTTP Post
     highlight: Easy
 
