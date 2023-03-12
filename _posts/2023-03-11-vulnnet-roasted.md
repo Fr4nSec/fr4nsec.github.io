@@ -156,7 +156,7 @@ evil-winrm -i 10.10.31.71 -u 'Administrator' -H 'c2597747aa5e43022a3a3049a3c3b09
 
 It worked! And now we can read the system.txt file to grab the system flag.
 
-
+![root](/images/root.jpg)
 
 
 
