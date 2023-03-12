@@ -5,13 +5,13 @@ navbar_entries:
 project_entries:
   - title: VulnNet - Roasted
     url: https://github.com/Fr4nSec/fr4nsec.github.io/blob/master/_posts/11-03-2023-vulnnet-roasted.md
-    desc: Writeup
+    desc: Windows, SMB
 
-  - title: Project 2
+  - title: Brute it
     url: overview-post
-    desc: Projects are shown in card layout
+    desc: Linux, HTTP Post
 
-  - title: Project 3
+  - title: Res
     url: overview-post
     desc: You can control visibility from _config.yml file
 
