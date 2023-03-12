@@ -98,6 +98,10 @@ evil-winrm -i 10.10.171.250 -u 'enterprise-core-vn' -p 'ry=ibfkfv,s6h,'
 
 ![remote](/images/remote.jpg)
 
+It worked! Let's try find the flag. Usually is in the same folder or near.
+
+![flag1](/images/flag1.jpg)
+
 
 ## Privilege escalation
 
