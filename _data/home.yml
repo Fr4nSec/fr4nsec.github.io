@@ -12,10 +12,10 @@ project_entries:
   - title: VulnNet - Roasted
     url: vulnnet-roasted
     desc: Windows, SMB
-    highlight: Medium
+    highlight: Easy
 
   - title: Brute it
-    url: vulnnet-roasted
+    url: brute-it
     desc: Linux, HTTP Post
     highlight: Easy
 
@@ -67,10 +67,10 @@ footer_entries:
   #  url: false
    # entries:
     #  - title: on Github
-     #   url: https://github.com/abhinavs/moonwalk
+     #   url: https://github.com/Fr4nSec
 
      # - title: originally built for abhinav's homepage
-      #  url: https://www.abhinav.co
+      #  url: https://fr4nsec.github.io/
 
       #- title: this list is scalable and can be nested
        # url: false
