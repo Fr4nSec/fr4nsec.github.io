@@ -1,19 +1,28 @@
 navbar_entries:
   - title: THM Page
     url: https://tryhackme.com/
+    
+  - title: Games
+    url: https://overthewire.org/wargames/
+    
+  - title: CrackStation
+    url: https://crackstation.net/
 
 project_entries:
   - title: VulnNet - Roasted
     url: https://github.com/Fr4nSec/fr4nsec.github.io/blob/master/_posts/11-03-2023-vulnnet-roasted.md
     desc: Windows, SMB
+    highlight: Medium
 
   - title: Brute it
     url: overview-post
     desc: Linux, HTTP Post
+    highligh: Easy
 
   - title: Res
     url: overview-post
     desc: You can control visibility from _config.yml file
+    highlight: Easy
 
   - title: Project 4
     url: overview-post
