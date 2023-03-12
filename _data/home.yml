@@ -39,13 +39,13 @@ project_entries:
     desc: It also has a scalable vertical list (in case you need it)
 
 footer_entries:
-  - title: Fr4nSec's homepage
+  - title: Home Page
     url: https://fr4nsec.github.io/
 
   - title: twitter
     url: 
 
-  - title: github
+  - title: GitHub
     url: https://github.com/Fr4nSec
 
 
