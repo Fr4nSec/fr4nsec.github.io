@@ -2,7 +2,8 @@ title: CTF Writeups
 author: Fr4nSec
 url: https://fr4nsec.github.io/ # root address of the site
 description: > # description of the site (multiple lines allowed)
-  CTF Writeups from TryHackMe
+  CTF Writeups from TryHackMe.
+  This page contain critical vulnerabilities and how to exploit them. Use this page for educational purposes only.
 
 permalink: /:slug
 
