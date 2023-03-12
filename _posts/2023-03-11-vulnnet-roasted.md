@@ -56,6 +56,7 @@ We can see some user names, let's strip out the data we don't need. Copy the res
 cat fullinfo.txt | grep SidTypeUser | awk -F'\' '{print $2}' | awk -F'(' '{print $1}'
 ```
 
+![users1](/images/users.jpg)
 
 
 ## Exploitation
