@@ -20,23 +20,24 @@ project_entries:
     highlight: Easy
 
   - title: Res
-    url: overview-post
-    desc: You can control visibility from _config.yml file
+    url: res
+    desc: Command Injection, reverse shell
     highlight: Easy
 
-  - title: Project 4
+  - title: Wgel
     url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
+    desc: Reverse shell
+    highlight: Easy
 
-  - title: Project 5
+  - title: Biblioteca
     url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
+    desc: Sqlmap, Python-path
+    highlight: Intermediate
 
-  - title: Project 6
+  - title: Kenobi
     url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
+    desc: SMB, FTP
+    highlight: Easy
 
 footer_entries:
   - title: Home Page
