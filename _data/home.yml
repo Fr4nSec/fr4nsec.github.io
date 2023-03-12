@@ -10,7 +10,7 @@ navbar_entries:
 
 project_entries:
   - title: VulnNet - Roasted
-    url: https://github.com/Fr4nSec/fr4nsec.github.io/blob/master/_posts/11-03-2023-vulnnet-roasted.md
+    url: vulnnet-roasted
     desc: Windows, SMB
     highlight: Medium
 
