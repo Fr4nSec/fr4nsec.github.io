@@ -4,8 +4,6 @@ author: Fr4nSec
 tags: [Windows, SMB,]
 ---
 
-CTF challenge having a Windows target. SMB is key to solve it.
-
 ## Objectives
 
 - Obtain the user flag

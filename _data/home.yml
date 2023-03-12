@@ -19,7 +19,7 @@ project_entries:
     desc: Linux, HTTP Post
     highlight: Easy
 
-  - title: Res
+  - title: Res (In-process)
     url: res
     desc: Command Injection, reverse shell
     highlight: Easy
