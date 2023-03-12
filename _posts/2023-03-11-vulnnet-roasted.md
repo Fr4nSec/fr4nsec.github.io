@@ -6,6 +6,11 @@ tags: [Windows, SMB,]
 
 CTF challenge having a Windows target. SMB is key to solve it.
 
+## Objectives
+
+- User flag
+- Root flag
+
 ## Recon
 
 Let's scan the target IP address..
