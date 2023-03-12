@@ -124,6 +124,10 @@ We found some interesting folders. Let's dig.
 
 ![scripts](/images/script.jpg)
 
+We found a script and when we check what does it do, we find some credentials for user **a-whitehat**!
+
+![scriptcreds](/images/scriptcreds.jpg)
+
 
 
 ## Privilege escalation
