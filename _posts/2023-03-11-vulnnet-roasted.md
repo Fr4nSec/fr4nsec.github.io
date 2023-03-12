@@ -44,6 +44,7 @@ smbmap -H 10.10.216.196 -u anonymous
 
 
 
+
 ## Exploitation
 
 IPC$ seems to be readable. That means we might be able to ennumerate names of domain accounts. Let's try:
