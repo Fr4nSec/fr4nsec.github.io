@@ -24,20 +24,7 @@ project_entries:
     desc: Command Injection, reverse shell
     highlight: Easy
 
-  - #title: Wgel
-    #url: overview-post
-    #desc: Reverse shell
-    #highlight: Easy
 
-  - #title: Biblioteca
-    #url: overview-post
-    #desc: Sqlmap, Python-path
-    #highlight: Intermediate
-
-  - #title: Kenobi
-    #url: overview-post
-    #desc: SMB, FTP
-    #highlight: Easy
 
 footer_entries:
   - title: Home Page
