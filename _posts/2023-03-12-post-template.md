@@ -16,8 +16,7 @@ CTF challenge having a Windows target. SMB is key to solve it.
 Let's scan the target IP address..
 
 ```
-nmap -p- -sS --min-rate 5000 -n -Pn 10.10.216.196
-
+nmap -p- -sS --min-rate 5000 -n -P <IP Address>
 ```
 
 ![screenshot1](/images/roasted.jpeg)
