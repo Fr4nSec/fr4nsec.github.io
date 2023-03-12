@@ -42,6 +42,10 @@ smbmap -H 10.10.216.196 -u anonymous
 
 ![smb1](/images/smb1.jpg)
 
+
+
+## Exploitation
+
 IPC$ seems to be readable. That means we might be able to ennumerate names of domain accounts. Let's try:
 
 ```
@@ -73,9 +77,7 @@ john hash1 --wordlist=/home/kali/rockyou.txt
 
 ![crackedhash](/images/crackedhash.jpg)
 
-## Exploitation
 
-We can use Hydra to brute force HTTP-POST-FORM:
 
 
 ```
