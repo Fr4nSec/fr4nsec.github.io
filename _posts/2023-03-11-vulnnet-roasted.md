@@ -19,7 +19,7 @@ Let's scan the target IP address..
 nmap -p- -sS --min-rate 5000 -n -P <IP Address>
 ```
 
-![theme logo](/fr4nsec.github.io/blob/master/images/roasted.jpeg)
+![theme logo](/images/roasted.jpeg)
 ![theme logo2](http://www.abhinavsaxena.com/images/abhinav.jpeg)
 
 ## Exploitation
