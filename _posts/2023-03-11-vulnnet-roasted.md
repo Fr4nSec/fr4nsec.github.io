@@ -81,12 +81,6 @@ john hash1 --wordlist=/home/kali/rockyou.txt
 
 
 
-```
-hydra -l <user> -P <password list> <IP Address> ssh
-```
-
-
-
 ## Privilege escalation
 
 Let's check if sudo has any additional configuration..
