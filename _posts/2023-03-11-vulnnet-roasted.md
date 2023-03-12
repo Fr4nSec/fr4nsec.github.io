@@ -50,7 +50,11 @@ impacket-lookupsid anonymous@10.10.216.196
 
 ![smb2](/images/smb2.jpg)
 
-We can see some user names, let's strip out the data we don't need.
+We can see some user names, let's strip out the data we don't need. Copy the result to a file and run the below to keep only the user names.
+
+```
+cat fullinfo.txt | grep SidTypeUser | awk -F'\' '{print $2}' | awk -F'(' '{print $1}'
+```
 
 
 
