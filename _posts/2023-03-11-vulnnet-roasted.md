@@ -25,7 +25,7 @@ Once we have a list of open ports, let's scan those ports more in depth.
 ```
 nmap -p 53,135,139,389,445,464,636,3268,5985,9389 -sCV 10.10.216.196 > PortScan
 cat PortScan
-
+```
 
 ![scan2](/images/scan2.jpg)
 
