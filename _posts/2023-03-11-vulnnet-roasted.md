@@ -42,6 +42,18 @@ smbmap -H 10.10.216.196 -u anonymous
 
 ![smb1](/images/smb1.jpg)
 
+IPC$ seems to be readable. That means we might be able to ennumerate names of domain accounts. Let's try:
+
+```
+impacket-lookupsid anonymous@10.10.216.196
+```
+
+![smb2](/images/smb2.jpg)
+
+We can see some user names, let's strip out the data we don't need.
+
+
+
 ## Exploitation
 
 We can use Hydra to brute force HTTP-POST-FORM:
