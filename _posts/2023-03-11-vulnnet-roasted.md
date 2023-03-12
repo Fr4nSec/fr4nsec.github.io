@@ -78,6 +78,19 @@ john hash1 --wordlist=/home/kali/rockyou.txt
 
 ![crackedhash](/images/crackedhash.jpg)
 
+Now let's try to find some SPN associated with user accounts. Result should be a file with encrypted password.
+
+```
+impacket-GetUserSPNs 'VULNNET-RST.local/t-skid:tj072889*' -outputfile hashes -dc-ip 10.10.171.250 
+```
+
+![GetUserSPNs](/images/SPN.jpg)
+
+![hash2](/images/hash2.jpg)
+
+Now we can try crack it the same way as before:
+
+![cracked2](/images/cracked2.jpg)
 
 
 
