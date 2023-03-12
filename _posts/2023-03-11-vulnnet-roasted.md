@@ -126,7 +126,7 @@ We found some interesting folders. Let's dig.
 
 We found a script and when we check what does it do, we find some credentials for user **a-whitehat**!
 
-![scriptcreds](/images/scriptcreds.jpg)
+![scriptcreds](/images/scripcreds.jpg)
 
 
 
