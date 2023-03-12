@@ -19,7 +19,7 @@ Let's scan the target IP address..
 nmap -p- -sS --min-rate 5000 -n -Pn 10.10.216.196
 
 ```
-![scan1](/images/scan1.jpeg)
+![scan1](/images/scan1.jpg)
 
 Once we have a list of open ports, let's scan those ports more in depth.
 
@@ -29,7 +29,7 @@ cat PortScan
 
 ```
 
-![scan2](/images/scan2.jpeg)
+![scan2](/images/scan2.jpg)
 
 
 ## Exploitation
