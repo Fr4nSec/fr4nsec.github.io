@@ -104,6 +104,26 @@ It worked! Let's try find the flag. Usually is in the same folder or near.
 
 And we got the first flag. 
 
+Now let's map the SMB again but this time with a valid user.
+
+```
+smbmap -H 10.10.171.250 -u enterprise-core-vn -p 'ry=ibfkfv,s6h,'
+```
+
+![smb3](/images/smb3.jpg)
+
+We get shares that are now readable. Let's dig more.
+
+```
+smbclient \\\\10.10.171.250\\SYSVOL -U 'enterprise-core-vn%ry=ibfkfv,s6h,'
+```
+
+![sysvol](/images/sysvol.jpg)
+
+We found some interesting folders. Let's dig.
+
+![scripts](/images/script.jpg)
+
 
 
 ## Privilege escalation
