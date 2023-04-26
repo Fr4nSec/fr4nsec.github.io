@@ -20,7 +20,7 @@ project_entries:
     highlight: Easy
 
   - title: Boiler CTF
-    url: BoilerCTF
+    url: boiler
     desc: Unix, Cyphers, joomla, sar2html
     highlight: Medium
 
