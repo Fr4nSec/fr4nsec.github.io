@@ -19,10 +19,10 @@ project_entries:
     desc: Linux, HTTP Post
     highlight: Easy
 
-  - title: Res (In-process)
+  - title: Boiler CTF (In-process)
     url: res
-    desc: Command Injection, reverse shell
-    highlight: Easy
+    desc: Unix, Cyphers, joomla, sar2html
+    highlight: Medium
 
 
 
