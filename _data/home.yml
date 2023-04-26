@@ -19,7 +19,7 @@ project_entries:
     desc: Linux, HTTP Post
     highlight: Easy
 
-  - title: Boiler CTF (In-process)
+  - title: Boiler CTF
     url: res
     desc: Unix, Cyphers, joomla, sar2html
     highlight: Medium
